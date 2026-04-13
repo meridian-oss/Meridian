@@ -11,7 +11,7 @@ body:
         プロジェクトの開発アイテムを設定して下さい。
 
   - type: textarea
-    id: description
+    id: goal
     attributes:
       label: ゴール
       description: このアイテム完了時に達成したい内容を記載して下さい。
@@ -23,7 +23,7 @@ body:
       required: true
 
   - type: textarea
-    id: description
+    id: condition
     attributes:
       label: 条件
       description: このアイテム着手時の開発条件について記載して下さい。
@@ -35,7 +35,7 @@ body:
       required: true
 
   - type: textarea
-    id: description
+    id: problem
     attributes:
       label: 想定リスク・課題
       description: このアイテム着手時に想定されるリスク・課題について記載して下さい。
@@ -47,7 +47,7 @@ body:
       required: false
 
   - type: textarea
-    id: description
+    id: reference
     attributes:
       label: 参考情報・開発経緯
       description: 参考情報や開発経緯について記載して下さい。
