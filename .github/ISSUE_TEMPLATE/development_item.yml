@@ -1,0 +1,56 @@
+name: Development Item
+description: 開発アイテム起票のためのテンプレート
+title: "[Dev]: "
+labels: "enhancement"
+projects: "meridian-oss/1"
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        プロジェクトの開発アイテムを設定して下さい。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: ゴール
+      description: このアイテム完了時に達成したい内容を記載して下さい。
+      placeholder: |
+        - 目標1
+        - 目標2
+        - 目標3
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 条件
+      description: このアイテム着手時の開発条件について記載して下さい。
+      placeholder: |
+        - 条件1
+        - 条件2
+        - 条件3
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 想定リスク・課題
+      description: このアイテム着手時に想定されるリスク・課題について記載して下さい。
+      placeholder: |
+        - リスク・課題1
+        - リスク・課題2
+        - リスク・課題3
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 参考情報・開発経緯
+      description: 参考情報や開発経緯について記載して下さい。
+    validations:
+      required: false
+
